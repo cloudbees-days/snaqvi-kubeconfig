@@ -12,7 +12,7 @@ runs:
   steps:
     - id: createconfig
       name: create kube config
-      uses: docker://bitnami/kubectl:latest
+      uses: docker://bitnamilegacy/kubectl:latest
       shell: sh
       run: |
           
